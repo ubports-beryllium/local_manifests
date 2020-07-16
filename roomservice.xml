@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="https://gitlab.com/the-muppets" name="them_gitlab" revision="refs/heads/lineage-16.0" />
+  <remove-project name="Halium/halium-boot" path="halium/halium-boot" revision="halium-9.0" />
+  <project name="erfanoabdi/halium-boot" path="halium/halium-boot" revision="halium-9.0" />
+  <project name="ubports-beryllium/android_device_xiaomi_beryllium" path="device/xiaomi/beryllium" revision="lineage-16.0" />
+  <project name="ubports-beryllium/android_device_xiaomi_sdm845-common" path="device/xiaomi/sdm845-common" revision="lineage-16.0" />
+  <project name="ubports-beryllium/android_kernel_xiaomi_sdm845" path="kernel/xiaomi/sdm845" revision="dipper-p-oss" />
+  <project name="proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="them_gitlab" revision="lineage-16.0" />
+  <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" />
+</manifest>
